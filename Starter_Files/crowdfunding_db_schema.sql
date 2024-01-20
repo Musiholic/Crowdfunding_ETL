@@ -26,7 +26,7 @@ CREATE TABLE campaign(
 	outcome VARCHAR(200) NOT NULL,
 	backers_count INT NOT NULL,
 	country  VARCHAR(2) NOT NULL,
-	currenct VARCHAR(3) NOT NULL,
+	currency VARCHAR(3) NOT NULL,
 	launched_date DATE NOT NULL,
 	end_date DATE NOT NULL,
 	category_id VARCHAR(5) NOT NULL,
